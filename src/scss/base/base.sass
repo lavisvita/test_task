@@ -1,0 +1,52 @@
+*
+    box-sizing: border-box
+    outline: none
+
+body
+    position: relative
+
+input
+    height: 58px
+    padding-left: 10px
+
+textarea
+    padding: 10px
+    border-radius: 5px
+    box-shadow: none
+    border: 1px solid #b6b6b3
+
+button
+    line-height: 38px
+    border-style: none
+    background-color: #ef7e31
+    border-radius: 3px
+    color: #fff
+    outline-style: none
+    font-size: inherit
+    font-family: inherit
+    width: 105px
+    cursor: pointer
+    transition: opacity 150ms ease
+
+
+button[disabled]
+    opacity: 0.8
+    cursor: default
+    pointer-events: none
+
+
+button:hover
+    opacity: 0.8
+
+
+#app
+    display: flex
+    justify-content: center
+    align-items: center
+    min-height: 100vh
+
+#map
+    width: 800px
+    max-width: 1200px
+    height: 400px
+    margin-top: 30px
